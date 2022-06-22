@@ -1,5 +1,8 @@
 .intro {
    display: flex;
+   &.remove {
+      display: none;
+   }
 
    justify-content: center;
    align-content: center;
@@ -37,12 +40,17 @@
          border: none;
          margin-inline: auto;
          margin-top: 33px;
-         transition: all 200ms ease-in-out;
+         transition: all 100ms ease-in-out;
 
          &:hover {
             background-color: #2c2929;
             opacity: 0.9;
             color: white;
+         }
+
+         &:active {
+            transform: translate(5px, 5px);
+            box-shadow: 1px 1px 3px white;
          }
       }
    }

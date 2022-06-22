@@ -1,14 +1,58 @@
 .results {
-   display: none;
+   &.remove {
+      display: none;
+   }
    h1 {
    }
 }
 
 // records
 .records {
-   display: none;
+   width: 317px;
+   margin-right: 20px;
+   margin-top: 30px;
+   padding: 12px;
+
+   h1 {
+      line-height: 66px;
+      text-align: center;
+
+      &::after {
+         content: "";
+         height: 3px;
+         display: block;
+         background-color: white;
+
+         margin-top: -17px;
+
+         width: 31%;
+         margin-left: 101px;
+      }
+   }
+   &.remove {
+      display: none;
+   }
    h3 {
-      .p1 {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      font-size: 28px;
+
+      &.first {
+         margin-top: 30px;
+      }
+
+      span {
+         width: 233px;
+      }
+      .p1,
+      .p2 {
+         width: 90px;
+         padding: 10px;
+         font-size: 32px;
+         font-weight: 700;
+         margin: 14px;
+         border: thin solid;
       }
    }
 }

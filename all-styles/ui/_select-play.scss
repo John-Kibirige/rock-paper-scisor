@@ -1,10 +1,25 @@
 .play-section {
-   display: none;
+   width: 400px;
+
+   &.remove {
+      display: none;
+   }
 
    .container {
+      border: thin solid;
+      margin-top: 10px;
       h2 {
+         margin-left: 5px;
+         margin-top: 5px;
       }
       img {
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+         display: block;
+         margin-inline: auto;
+         margin-top: -13px;
+         margin-bottom: 15px;
       }
    }
 }

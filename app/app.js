@@ -7,6 +7,5 @@ const records = document.querySelector(".records");
 
 playBtn.addEventListener("click", (e) => {
    e.preventDefault();
-   //  add invisible class to the right
-   // add visible class to others
+   intro.classList.add("remove");
 });
