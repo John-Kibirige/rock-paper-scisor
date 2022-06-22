@@ -1,0 +1,49 @@
+.intro {
+   display: flex;
+
+   justify-content: center;
+   align-content: center;
+   .intro-cont {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20%;
+      box-shadow: 0px 0px 29px #004950;
+      width: 600px;
+      height: 463px;
+      border-radius: 9px;
+
+      h1 {
+         font-size: 47px;
+         font-weight: 600;
+         line-height: 80px;
+         text-align: center;
+      }
+
+      img {
+         width: 300px;
+         display: block;
+         margin-inline: auto;
+         border-radius: 50%;
+         height: 257px;
+      }
+
+      .play {
+         width: 247px;
+         padding: 13px;
+         font-size: 26px;
+         color: #011a1a;
+         cursor: pointer;
+         border-radius: 32px;
+         border: none;
+         margin-inline: auto;
+         margin-top: 33px;
+         transition: all 200ms ease-in-out;
+
+         &:hover {
+            background-color: #2c2929;
+            opacity: 0.9;
+            color: white;
+         }
+      }
+   }
+}
